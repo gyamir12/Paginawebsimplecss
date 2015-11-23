@@ -1,0 +1,125 @@
+.titulo{
+    top: 0px;
+		left: 0px;
+		padding: .5em;
+    margin: 0;
+
+		text-align: center;
+		background-color: rgb(255, 0, 115);
+		color: white;
+    float: left;
+    width: 80%;
+
+      }
+  .logo{
+    float:left;
+    width: 15%;
+    text-align: center;
+  }
+
+    html {
+    background: url("back.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cita{
+  font-style: italic;
+}
+.principal{
+  text-shadow: .1em .1em .3em rgb(164, 164, 164);
+  font-weight: bold;
+  color: white;
+  float: right;
+  text-align: center;
+  margin-right: 3em;
+  width: 60%;
+  font-size: 150%;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 120%;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff0073;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff2954;
+  text-decoration: none;
+  box-shadow: 0 0 1em #ff0073;
+}
+.portal{
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  margin: 7em;
+}
+.anima{
+  margin: 0;
+  -webkit-animation-name: portall;
+-moz-animation-name: portall;
+-o-animation-name: portall;
+-ms-animation-name: portall;
+animation-name: portall;
+-webkit-animation-duration: 5s;
+-moz-animation-duration: 5s;
+-o-animation-duration: 5s;
+-ms-animation-duration: 5s;
+animation-duration: 5s
+}
+.correlo{
+  padding-right: 1em;
+  margin-left: -5em;
+}
+@keyframes portall {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0.1) rotate(0deg);
+    -moz-transform: scale(0.1) rotate(0deg);
+    -o-transform: scale(0.1) rotate(0deg);
+    -ms-transform: scale(0.1) rotate(0deg);
+    transform: scale(0.1) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: scale(1) rotate(360deg);
+    -moz-transform: scale(1) rotate(360deg);
+    -o-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(360deg);
+    -moz-transform: scale(1) rotate(360deg);
+    -o-transform: scale(1) rotate(360deg);
+    -ms-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+.iniboto{
+  text-align: center;
+
+}
+table {
+  border-collapse: separate;
+  border-spacing:  3em 2em;
+  margin-left: -3em;
+}
+.modi{
+  margin-right: 9em;
+  font-size: 120%;
+  line-height: 200%;
+}
